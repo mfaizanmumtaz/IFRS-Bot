@@ -1,0 +1,28 @@
+/* body::-webkit-scrollbar {
+    width: 7px;
+  }
+
+  body::-webkit-scrollbar-thumb {
+    background-color: #767680;
+    border-radius: 6px;
+  }
+body::-webkit-scrollbar {
+    width: 7px;
+  }
+
+  .section3::-webkit-scrollbar-thumb {
+    background-color:white;
+    border-radius: 6px;
+  }
+
+  .para_font {
+    font-family: 'Noto Sans Arabic', sans-serif;
+  }
+
+  button.active {
+    background-color: #FF3366;
+  } */
+
+  #response_para, #title{
+    font-family: 'Roboto', sans-serif;
+  }

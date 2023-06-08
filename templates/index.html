@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link rel="stylesheet" href="/static/css/output.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,300&family=Roboto:wght@300&display=swap" rel="stylesheet">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="/static/images/earth.png" sizes="32x32" type="image/png">
+  <title>IFRS Bot</title>
+</head>
+<body class="bg-[#282930]">
+  <section class="bg-[#011640] shadow-2xl h-32 md:h-[170px] sticky top-0 overflow-hidden text-white flex flex-col items-center px-2 justify-evenly">
+    <div class="font-semibold text-xl md:text-2xl">
+      <h2>IFRS Bot</h2>
+    </div>
+    <form id="form" class="w-full">
+      <div class="w-full bg-white flex px-2 rounded-sm">
+        <input type="text" name="UserQuery" maxlength="500" id="UserQuery" class="w-full text-black outline-none" autocomplete="off" placeholder="Send message">
+        <button class="bg-[#FF3366] px-3 m-1 py-1 rounded-sm relative left-2" type="submit">SEND</button>
+      </div>
+    </form>
+  </section>
+<section class="flex flex-col items-center">
+  <div class="flex flex-col justify-center items-center space-y-4 h-96 px-4">
+<div class="flex flex-col justify-center items-center text-white space-y-4">
+<span><svg stroke="currentColor" fill="none" stroke-width="1.5" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="h-6 w-6" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg></span>
+  <span>Examples</span>
+</div>
+<div class="flex flex-col text-white space-y-4 text-center">
+<div class="bg-gray-600 p-4 rounded-md cursor-pointer caq">"What is the purpose of IFRS?" →</div>
+<div class="bg-gray-600 p-4 rounded-md cursor-pointer caq">"What are the key principles of IFRS?" →</div>
+<div class="bg-gray-600 p-4 rounded-md cursor-pointer caq">"How does IFRS impact financial transparency?" →</div>
+</div>
+</div>
+</section>
+  </div>
+  </div>
+  </div>
+  <div id="error" class="hidden h-16 flex justify-center items-center absolute top-2 left-0 right-0">
+    <div class="flex p-2 space-x-2 justify-center rounded-lg bg-orange-500 text-white">
+      <img src="/static/images/error.png" alt="error" class="mt-[1px] w-6 h-6">
+      <span class="text-lg font-bold">There is some error!</span>
+    </div>
+  </div>
+  </main>
+  <script src="/static/js/script.js"></script>
+</body>
+</html>
